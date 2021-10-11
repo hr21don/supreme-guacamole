@@ -204,8 +204,8 @@ h6 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  width: 4%;
-  border-color: green;
+  width: 6%;
+  border-color: lightgreen;
   margin: 100px auto;
 }
 
