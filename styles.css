@@ -49,6 +49,7 @@
 
 /* bio*/
 .Bio {
+  font-size: 23px;
   color: #000000;
   margin: auto;
   width: 30%;
@@ -110,6 +111,8 @@
   width: 40%;
   margin: 40px auto 60px;
 }
+
+
 /* contact Button styling*/
 .btn {
   background: #a1ffba;
@@ -139,6 +142,11 @@
   text-decoration: none;
 }
 
+/* footer styling */
+.footer-link{
+padding: 30px;
+font-size: 20px;
+}
 /* copyright text styling*/
 .copyright {
   color: #EAF6F6;
@@ -173,6 +181,7 @@ h2 {
 
 /* h3-styling*/
 h3 {
+  font-size: 40px;
   font-weight: bold;
   font-family: 'Mulish', sans-serif;
   color: #161D6F;
@@ -188,6 +197,7 @@ h4 {
 /* h5-styling*/
 h5 {
   /*font-family: 'Mulish', sans-serif;*/
+  font-size: 100%;
   font-weight: bold;
   color: #161D6F;
 }
@@ -210,10 +220,11 @@ hr {
 
 /* paragraph-styling*/
 p {
-  font-weight: 900;
+  font-weight: bold;
+  font-size: 100%;
   line-height: 2;
   color: #ffffff;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 
 /* anchor-styling*/
