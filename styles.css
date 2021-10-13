@@ -8,7 +8,6 @@
 *  3.0 - Footer
 *  4.0 - Fonts
 */
-
 /**************Headers-styling******************/
 h1 {
   font-weight: bolder;
@@ -71,6 +70,7 @@ body {
   background-color: #252A34;
   text-align: center;
 }
+
 /* horizonal-line-styling*/
 hr {
   border-style: none;
@@ -85,7 +85,7 @@ p {
   font-size: 100%;
   line-height: 2;
   color: #ffffff;
-  padding:auto;
+  padding: auto;
 }
 
 /* anchor-styling*/
@@ -94,6 +94,7 @@ a {
   margin: 10px 20px;
   text-decoration: none;
 }
+
 /* anchor-hover-styling*/
 a.hover {
   color: #161D6F;
@@ -104,11 +105,13 @@ div {
   padding: 3% 10% 8%;
   margin: 10px;
 }
+
 /* div-styling #E3FDFD*/
 .top-container {
   background-color: #08D9D6;
   margin: -10px;
 }
+
 /* bio*/
 .Bio {
   font-weight: bold;
@@ -137,20 +140,21 @@ div {
   margin: 100px auto 100px auto;
   padding: 10px;
 }
+
 /* div styling*/
 .profile {
   background-color: #EAEAEA;
 }
+
 /* div styling*/
 .skills {
   background-color: #EAEAEA;
 }
+
 /* div styling*/
 .contact-me {
   background-color: #86C4BA;
 }
-
-
 
 /************Images-styling**********/
 /* img styling*/
@@ -211,23 +215,28 @@ div {
 }
 
 /* Mobile,Laptop,Tablet,Desktop Responsiveness Query*/
-@media screen and (max-width:1028px){
+@media screen and (max-width:1028px) {
+
   /* image styling*/
   .webdesignimg {
     width: 60%;
   }
+
   /* image styling*/
   .designthinkimg {
     width: 60%;
   }
+
   /* image styling*/
   .dataimg {
     width: 60%;
   }
+
   /* image styling*/
   .thinkingimg {
     width: 60%;
   }
+
   /* image styling*/
   .targetimg {
     width: 60%;
@@ -263,12 +272,12 @@ div {
   text-decoration: none;
 }
 
-
 /************footer styling***********/
-.footer-link{
-padding: 30px;
-font-size: 20px;
+.footer-link {
+  padding: 30px;
+  font-size: 20px;
 }
+
 /* copyright text styling*/
 .copyright {
   color: #EAF6F6;
