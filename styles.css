@@ -9,7 +9,7 @@
 *  4.0 - Fonts
 */
 
-/* 1.0 - Headers - h1-styling */
+/**************Headers-styling******************/
 h1 {
   font-weight: bolder;
   font-family: 'Merriweather', serif;
@@ -66,7 +66,7 @@ h6 {
   color: #161D6F;
 }
 
-/* 2.0-Body-styling*/
+/***********Body-styling***********/
 body {
   background-color: #252A34;
   text-align: center;
@@ -99,7 +99,7 @@ a.hover {
   color: #161D6F;
 }
 
-/* 2.1-div-styling*/
+/************Container+styling**********/
 div {
   padding: 3% 10% 8%;
   margin: 10px;
@@ -108,6 +108,14 @@ div {
 .top-container {
   background-color: #08D9D6;
   margin: -10px;
+}
+/* bio*/
+.Bio {
+  font-weight: bold;
+  font-size: 100%;
+  color: #000000;
+  margin: auto;
+  width: 30%;
 }
 
 /*div styling*/
@@ -142,15 +150,9 @@ div {
   background-color: #86C4BA;
 }
 
-/* bio*/
-.Bio {
-  font-weight: bold;
-  font-size: 100%;
-  color: #000000;
-  margin: auto;
-  width: 30%;
-}
 
+
+/************Images-styling**********/
 /* img styling*/
 .img {
   position: relative;
@@ -208,31 +210,31 @@ div {
   margin: 40px auto 60px;
 }
 
-/* Rescale images for Mobile,Laptop,Tablet,Desktop */
+/* Mobile,Laptop,Tablet,Desktop Responsiveness Query*/
 @media screen and (max-width:1028px){
   /* image styling*/
   .webdesignimg {
-    width: 65%;
+    width: 60%;
   }
   /* image styling*/
   .designthinkimg {
-    width: 65%;
+    width: 60%;
   }
   /* image styling*/
   .dataimg {
-    width: 65%;
+    width: 60%;
   }
   /* image styling*/
   .thinkingimg {
-    width: 65%;
+    width: 60%;
   }
   /* image styling*/
   .targetimg {
-    width: 65%;
+    width: 60%;
   }
 }
 
-/* contact Button styling*/
+/************Button-styling**********/
 .btn {
   background: #a1ffba;
   background-image: -webkit-linear-gradient(top, #a1ffba, #2980b9);
@@ -261,7 +263,8 @@ div {
   text-decoration: none;
 }
 
-/* footer styling */
+
+/************footer styling***********/
 .footer-link{
 padding: 30px;
 font-size: 20px;
